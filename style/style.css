@@ -8,3 +8,109 @@
     width: 1100px;
     margin: 0 auto;
 }
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+.dae {
+    width: 1440px;
+    height: 47px;
+    background: rgba(179, 96, 80, 1);
+    padding: 9px 576px;
+}
+
+.dae-txt {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27.2px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(241, 211, 185, 1);
+
+}
+
+.bacround {
+    width: 1440px;
+    height: 71px;
+    background: rgba(246, 244, 236, 1);
+    padding: 5px 10px 10px 14px;
+    display: flex;
+    gap: 228px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 424px;
+    height: 61px;
+    padding-top: 16px;
+}
+
+.index {
+    width: 432px;
+    height: 61px;
+    display: flex;
+    gap: 10px;
+    padding-left: 313px;
+    padding-top: 17px;
+}
+
+.link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(180, 96, 77, 1);
+
+}
+
+.dae-img2 {
+    width: 19.49093246459961px;
+    height: 21.010000228881836px;
+    align-items: center;
+
+}
+
+.account {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(180, 96, 77, 1);
+}
+
+/* header */
+/* main */
+/* section-1 */
+.bacround-img {
+    background-image: url("../images/shop.png");
+    width: 1440px;
+    height: 435px;
+}
+
+.dae-btn {
+    width: 128px;
+    height: 48px;
+    background: rgba(180, 95, 77, 1);
+    padding: 10px 20px;
+    border: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 332px 656px;
+}
