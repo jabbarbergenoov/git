@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -30,6 +30,8 @@
 
 .rek {
     margin-top: 48px;
+    display: flex;
+    gap: 10px;
 }
 
 .footer {
@@ -78,6 +80,23 @@
 }
 
 .p-txt-two {
+
+font-family: Roboto;
+font-size: 13px;
+margin-top: 14px;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: 0%;
+background: rgb(246, 244, 236);
+text-align: center;
+text-transform: uppercase;
+border: 1px solid rgb(180, 95, 77);
+width: 500px;
+height: 40px;
+text-align: right;
+padding-right: 10px;
+}
+.p-txt-two{
     padding-top: 22px;
     color: rgb(193, 124, 108);
     font-family: Roboto;
@@ -106,92 +125,232 @@
     padding-top: 132px;
 }
 
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 50px;
+padding-top: 132px;
+}   
 a {
     text-decoration: none;
+  width: 1440px;
+  margin: 0 auto;
+}
 
+.p {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 39.2px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 25px;
+  font-weight: 900;
+}
+
+.reklama {
+  width: 1440px;
+  height: 285.59px;
+  background-color: white;
+}
+
+.rek {
+  margin-top: 48px;
+}
+
+.boxs {
+  height: 304px;
+  background: rgb(169, 174, 141);
+}
+
+.mask {
+  color: rgb(246, 244, 236);
+  font-family: Roboto;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 64px;
+  padding-left: 70px;
+  padding-top: 15px;
+}
+
+.shop {
+  color: rgb(246, 244, 236);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.beast {
+  color: rgb(246, 244, 236);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  padding-left: 70px;
+  padding-top: 69px;
+}
+
+.footer {
+  background: rgb(246, 244, 236);
+  width: 1440px;
+  height: 401px;
+}
+
+.gone {
+  display: flex;
+  gap: 112px;
+  padding-left: 50px;
+  padding-top: 62px;
+}
+
+.p-txt {
+  color: rgb(180, 95, 77);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0%;
+}
+
+.gone-two {
+  padding-top: 62px;
+}
+
+.btn {
+  color: rgb(180, 95, 77);
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0%;
+  background: rgb(246, 244, 236);
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid rgb(180, 95, 77);
+  width: 500px;
+  height: 40px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.p-txt-two {
+  padding-top: 22px;
+  color: rgb(193, 124, 108);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.box {
+  display: flex;
+  gap: 489px;
+}
+
+.pp {
+  color: rgb(193, 124, 108);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 132px;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* header */
 .dae {
-    width: 1440px;
-    height: 47px;
-    background: rgba(179, 96, 80, 1);
-    padding: 9px 576px;
+  width: 1440px;
+  height: 47px;
+  background: rgb(179, 96, 80);
+  padding: 9px 576px;
 }
 
 .dae-txt {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 27.2px;
-    letter-spacing: 0%;
-    text-align: center;
-    color: rgba(241, 211, 185, 1);
-
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27.2px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(241, 211, 185);
 }
 
 .bacround {
-    width: 1440px;
-    height: 71px;
-    background: rgba(246, 244, 236, 1);
-    padding: 5px 10px 10px 14px;
-    display: flex;
-    gap: 228px;
+  width: 1440px;
+  height: 71px;
+  background: rgb(246, 244, 236);
+  padding: 5px 10px 10px 14px;
+  display: flex;
+  gap: 228px;
 }
 
 .item {
-    display: flex;
-    justify-content: space-between;
-    width: 424px;
-    height: 61px;
-    padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 424px;
+  height: 61px;
+  padding-top: 16px;
 }
 
 .index {
-    width: 432px;
-    height: 61px;
-    display: flex;
-    gap: 10px;
-    padding-left: 313px;
-    padding-top: 17px;
+  width: 432px;
+  height: 61px;
+  display: flex;
+  gap: 10px;
+  padding-left: 313px;
+  padding-top: 17px;
 }
 
 .link {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28.8px;
-    letter-spacing: 0%;
-    text-transform: capitalize;
-    color: rgba(180, 96, 77, 1);
-
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgb(180, 96, 77);
 }
 
 .dae-img2 {
-    width: 19.49093246459961px;
-    height: 21.010000228881836px;
-    align-items: center;
-
+  width: 19.4909324646px;
+  height: 21.0100002289px;
+  align-items: center;
 }
 
 .account {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28.8px;
-    letter-spacing: 0%;
-    text-transform: capitalize;
-    color: rgba(180, 96, 77, 1);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgb(180, 96, 77);
 }
 
 .bacround-img {
-    background-image: url("../images/shop.png");
-    width: 1440px;
-    height: 435px;
+  background-image: url("../images/shop.png");
+  width: 1440px;
+  height: 435px;
 }
 
 .dae-btn {
@@ -264,3 +423,16 @@ ul {
     line-height: 32px;
     letter-spacing: 0%;
 }
+  width: 128px;
+  height: 48px;
+  background: rgb(180, 95, 77);
+  padding: 10px 20px;
+  border: none;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin: 332px 656px;
+}/*# sourceMappingURL=style.css.map */
