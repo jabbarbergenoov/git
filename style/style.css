@@ -7,6 +7,7 @@
 .container {
     width: 1440px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .p {
@@ -367,6 +368,33 @@ ul {
     color: rgba(255, 255, 255, 1);
     margin: 332px 656px;
 }
+.sur1-txt{
+    color: #B45F4D;
+   
+}
+.bas{
+    display: flex;
+    gap:150px;
+    margin-top: 14px;
+    margin-bottom: 399.84px;
+
+}
+.sur1-img{
+
+    width: 380px;
+    height: 567.1563px;
+}
+.orta{
+    text-align: center;
+    color: #B45F4D;
+    margin-top: 39px;
+}
+.ras{
+    width: 1440px;
+height: 835px;
+background-color: #F6F4EC;
+}
+=======
 
 .section-two {
     margin-top: 24px;
